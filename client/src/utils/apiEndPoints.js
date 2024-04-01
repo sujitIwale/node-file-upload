@@ -1,7 +1,7 @@
 export const BASE_API_URL =
   process.env.NODE_ENV === "development"
     ? "http://localhost:3001"
-    : "https://web-production-08ff.up.railway.app";
+    : "https://web-production-987fb.up.railway.app";
 
 export const signIn_Url = `${BASE_API_URL}/auth/signin/`;
 export const signUp_Url = `${BASE_API_URL}/auth/signup/`;
