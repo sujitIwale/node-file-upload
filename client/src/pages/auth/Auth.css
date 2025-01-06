@@ -76,19 +76,20 @@
 
 .auth-card form .auth-btn-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
   justify-content: center;
 }
 
 .auth-card form button {
   width: 50%;
-  margin: 20px 0;
 }
 
 .auth-loader {
   width: 60px;
   height: 40px;
 }
-
 
 .auth-card .auth-card-footer {
   padding: 10px 14%;
